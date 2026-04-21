@@ -3,11 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/Ahad-Rehman/devops-lab-app.git'
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
